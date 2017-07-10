@@ -1,0 +1,20 @@
+{
+  "name": "csdn adviertisement",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "a plug-ins to delete csdn's adviertisement",
+  "icons": {
+        "16": "images/1.png",
+        "48": "images/1.png",
+        "128": "images/1.png"
+    },
+  "browser_action": {
+    "default_icon": "images/1.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://blog.csdn.net/*"],
+      "js": ["script.js"]
+    }
+  ]
+}
