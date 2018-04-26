@@ -19,3 +19,6 @@ if(document.getElementsByClassName("extension_other csdn-tracking-statistics")[0
 if(document.getElementsByClassName("fixRight")[0]!=null){
 	document.getElementsByClassName("fixRight")[0].style.display='none'
 }
+if(document.getElementsByClassName("csdn-tracking-statistics mb8 box-shadow")[0]!=null){
+	document.getElementsByClassName("csdn-tracking-statistics mb8 box-shadow")[0].style.display='none'
+}
